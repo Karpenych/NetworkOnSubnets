@@ -154,6 +154,8 @@ namespace NetworkOnSubnets
             }
         }
 
+                                                                          ///////////  HELP FUNCTIONS  ////////////////////////
+
         private void GetInfo(out int compsAmount, out int[] mask, out int[] broadcast, int oneIPsAmount, int[] ip)
         {
             compsAmount = Jija.AmountOfComputers(oneIPsAmount);
